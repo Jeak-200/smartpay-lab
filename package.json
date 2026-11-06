@@ -1,7 +1,7 @@
 {
-  "name": "hardhat-boilerplate",
+  "name": "smartpay-lab",
   "version": "1.0.0",
-  "description": "A boilerplate repository to get you started with Hardhat and Ethereum development",
+  "description": "A personal Ethereum development project",
   "scripts": {
     "test": "hardhat test",
      "preinstall": "node scripts/setup_bun.js",

@@ -22,14 +22,14 @@ npm install
 Once installed, let's run Hardhat's testing network:
 
 ```sh
-npx smartpay-lab node
+npx hardhat node
 ```
 
 Then, on a new terminal, go to the repository's root folder and run this to
 deploy your contract:
 
 ```sh
-npx smartpay-lab run scripts/deploy.js --network localhost
+npx  hardhat run scripts/deploy.js --network localhost
 ```
 
 Finally, we can run the frontend with:
@@ -50,7 +50,7 @@ This project also includes [a sample frontend/Dapp](./frontend), which uses [Cre
 
 ## Troubleshooting
 
-- `Invalid nonce` errors: if you are seeing this error on the `npx smartpay-lab node`
+- `Invalid nonce` errors: if you are seeing this error on the `npx hardhat node`
   console, try resetting your Metamask account. This will reset the account's
   transaction history and also the nonce. Open Metamask, click on your account
   followed by `Settings > Advanced > Clear activity tab data`.
