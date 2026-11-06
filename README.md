@@ -50,7 +50,7 @@ This project also includes [a sample frontend/Dapp](./frontend), which uses [Cre
 
 ## Troubleshooting
 
-- `Invalid nonce` errors: if you are seeing this error on the `npx hardhat node`
+- `Invalid nonce` errors: if you are seeing this error on the `npx smartpay-lab node`
   console, try resetting your Metamask account. This will reset the account's
   transaction history and also the nonce. Open Metamask, click on your account
   followed by `Settings > Advanced > Clear activity tab data`.
